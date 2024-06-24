@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { RxHamburgerMenu } from "react-icons/rx";
-import { IoClose, IoLogoFacebook } from "react-icons/io5";
+import { IoLogoFacebook } from "react-icons/io5";
 import { HashLink } from 'react-router-hash-link';
 import logo from '../assets/images/logo.png'
 import { FaCodeBranch, FaHome, FaInstagram, FaPhoneAlt, FaRegCalendarCheck, FaTwitter } from 'react-icons/fa';

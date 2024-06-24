@@ -3,10 +3,9 @@ import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Cources from '../components/Cources'
 import Footer from '../components/Footer'
-import About2 from '../components/About'
 import Service from '../components/Service'
 import Prepare from '../components/Prepare'
-import Swiperimages, { OverView } from '../components/OverView'
+import Swiper, { OverView } from '../components/OverView'
 import Pinkcontent from '../components/Pinkcontent'
 import About from '../components/About'
 
@@ -26,7 +25,6 @@ function HomePage() {
         <Pinkcontent/>
         <Cources />
         <About />
-
         <Footer />
        
       </div>

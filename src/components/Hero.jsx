@@ -59,7 +59,7 @@ function Hero() {
                                     {classes.map((item, index) => (
                                         <button
                                             key={index}
-                                            className={`${isSelected == index ? 'bg-[#FF8D1A]' : 'bg-transparent'} py-1 border border-gray-300 text-center hover:bg-[#FF8D1A]`}
+                                            className={`${isSelected === index ? 'bg-[#FF8D1A]' : 'bg-transparent'} py-1 border border-gray-300 text-center hover:bg-[#FF8D1A]`}
                                             onClick={() => setIsSeleceted(index)}
                                             disabled={isDisabled}
                                         >

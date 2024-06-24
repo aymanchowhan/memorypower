@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import "swiper/css";
-import { PiCubeTransparentFill } from "react-icons/pi";
 
 import CourceCard from './Cards/CourceCard';
 

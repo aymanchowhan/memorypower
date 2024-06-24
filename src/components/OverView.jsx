@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import { AiFillCaretLeft, AiFillCaretRight } from 'react-icons/ai';
 import { Navigation, Pagination } from 'swiper/modules';
 import "swiper/css";
@@ -81,12 +81,12 @@ export const OverView = () => {
 
                     <div className='order-1 lg:order-2'>
                         <div className={`flex container lg:mt-[30px] border-b-[1px]`}>
-                            <div onClick={() => setTab('overview')} className={`${tab == 'overview' ? 'border-b-4 border-blue-500 text-blue-500' : 'border-b text-[#1D1C1D70]'} duration-400  cursor-pointer px-5 lg:px-0 lg:min-w-[179px] text-center lg:pb-3 pb-2 text-xl`}>Overview</div>
-                            <div onClick={() => setTab('vision')} className={`${tab == 'vision' ? 'border-b-4 border-blue-500 text-blue-500' : 'border-b text-[#1D1C1D70]'} duration-400  cursor-pointer px-5 lg:px-0 lg:min-w-[179px] text-center lg:pb-3 pb-2 text-xl`}>Our Vision </div>
+                            <div onClick={() => setTab('overview')} className={`${tab === 'overview' ? 'border-b-4 border-blue-500 text-blue-500' : 'border-b text-[#1D1C1D70]'} duration-400  cursor-pointer px-5 lg:px-0 lg:min-w-[179px] text-center lg:pb-3 pb-2 text-xl`}>Overview</div>
+                            <div onClick={() => setTab('vision')} className={`${tab === 'vision' ? 'border-b-4 border-blue-500 text-blue-500' : 'border-b text-[#1D1C1D70]'} duration-400  cursor-pointer px-5 lg:px-0 lg:min-w-[179px] text-center lg:pb-3 pb-2 text-xl`}>Our Vision </div>
                         </div>
                         <div className='mt-4 text-lg'>
                             {
-                                tab == 'overview' ?
+                                tab === 'overview' ?
                                     <div>
                                         “THE MEMORY POWER” is an EdTech startup company that equips students with the skillset and mindset required to be the future of the companies worldwide. We connect a deep understanding of education with the power of the “21st CENTURY LIFE SKILLS” to make your child ready to face this competitive and challenging world. <br /><br />
                                         The universe is a subject created in the minds of humans addressed by the facts and theories since centuries. To think about it in detail requires the strength of knowledge and experience which are used to lead an intellectual life.
