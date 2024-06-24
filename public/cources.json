@@ -1,0 +1,23 @@
+{
+    "data": [
+         {
+             "img": "https://memorypower.rabsconnect.in/static/media/Mask%20Group1.6d2daf4722051871ddf3.png",
+             "noOfClasses": 8,
+             "title": "FUNDAMENTAL OF MEMORY",
+             "price": "9,599"
+         },
+         {
+             "img": "https://memorypower.rabsconnect.in/static/media/Mask%20Group2.cab2e7a4c4c0f2985f9c.png",
+             "noOfClasses": 50,
+             "title": "COMPREHENSIVE MEMORY",
+             "price": "49,999"
+         },
+         {
+             "img": "https://memorypower.rabsconnect.in/static/media/Mask%20Group3.38ab955aedd836af2992.png",
+             "noOfClasses": 100,
+             "title": "PANAROMIC MEMORY",
+             "price": "1,35,999"
+         }
+     ]
+ }
+ 
